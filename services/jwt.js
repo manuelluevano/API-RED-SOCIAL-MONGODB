@@ -15,6 +15,7 @@ const createToken = (user) => {
     email: user.email,
     role: user.role,
     imagen: user.imagen,
+    bio: user.bio,
     iat: moment().unix(),
     exp: moment().add(30, "days").unix(),
   };
