@@ -28,11 +28,11 @@ const validarRegistro = (params) => {
       !validator.isEmpty(params.bio) &&
       validator.isLength(params.bio, { min: undefined, max: 255 });
 
-    if (!bio) {
-      throw new Error("No se ha validado la información");
-    } else {
-      console.log("Validacion superada");
-    }
+    // if (!bio) {
+    //   throw new Error("No se ha validado la información de la bios");
+    // } else {
+    //   console.log("Validacion superada");
+    // }
   }
 
   if (
